@@ -1,0 +1,68 @@
+@import "./variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  background-color: $gray-900;
+}
+
+#page-container {
+  height: 100%;
+  background-color: $gray-800;
+}
+
+#quote-box {
+  height: 100%;
+}
+
+#text,
+#author {
+  position: relative;
+  text-shadow: 1px 1px 3px rgb(18, 18, 18);
+}
+
+#tweet-quote-p {
+  margin-top: 2rem;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  color: white;
+  transition-property: filter;
+  transition-duration: 200ms;
+}
+
+#tweet-quote:hover,
+#visit-repository:hover {
+  filter: invert(0.3);
+}
+
+#tweet-quote img {
+  filter: invert(1);
+}
+
+#copyright {
+  padding-top: 1rem;
+  font-size: 0.7rem;
+}
+
+#visit-repository {
+  color: white;
+  transition-property: filter;
+  transition-duration: 200ms;
+}
+
+#visit-repository {
+  font-size: 0.7rem;
+}
+
+@media (max-height: 550px) {
+  html {
+    font-size: 11px;
+  }
+}

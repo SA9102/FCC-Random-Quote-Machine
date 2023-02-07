@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="http://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./scss/index.css" />
+    <title>Random Quote Machine</title>
+  </head>
+  <body class="text-light">
+    <main class="">
+      <article id="page-container" class="container">
+        <article
+          id="quote-box"
+          class="d-flex flex-column justify-content-center align-items-sm-end align-items-center p-5"
+        >
+          <figure>
+            <blockquote class="blockquote">
+              <p id="text" class="text-sm-end text-center fs-1"></p>
+            </blockquote>
+            <i
+              ><figcaption
+                id="author"
+                class="blockquote-footer text-sm-end text-center fs-4"
+              ></figcaption
+            ></i>
+          </figure>
+          <button
+            id="new-quote"
+            class="btn btn-primary rounded-1 mt-5 shadow-lg"
+          >
+            New Quote
+          </button>
+          <p id="tweet-quote-p">
+            <a href="twitter.com/intent/tweet" id="tweet-quote"
+              ><img src="./images/twitter.svg" /> Tweet the quote!</a
+            >
+          </p>
+          <p id="copyright">
+            &copy; Shayan Ali (SA9102). Created for freeCodeCamp.
+          </p>
+          <p id="visit-repository-p"><a href="" id="visit-repository">Visit repository</a></p>
+        </article>
+      </article>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
