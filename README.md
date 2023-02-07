@@ -1,6 +1,6 @@
 # FCC Random Quote Machine
 
-A program that generates different quotes. Uses jQuery, Bootstrap and some SCSS.
+A webpage that produces different quotes. Uses jQuery and some Bootstrap 5.
 
 This page was created for [freeCodeCamp](https://www.freecodecamp.org/), as part of the Front End Development Libraries course.
 
